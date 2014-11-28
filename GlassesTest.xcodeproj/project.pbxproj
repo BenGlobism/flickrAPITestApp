@@ -1,0 +1,515 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A9C0BFC41A28EF0500FD6EA1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9C0BFC31A28EF0500FD6EA1 /* Foundation.framework */; };
+		A9C0BFC61A28EF0500FD6EA1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9C0BFC51A28EF0500FD6EA1 /* CoreGraphics.framework */; };
+		A9C0BFC81A28EF0500FD6EA1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9C0BFC71A28EF0500FD6EA1 /* UIKit.framework */; };
+		A9C0BFCA1A28EF0500FD6EA1 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9C0BFC91A28EF0500FD6EA1 /* CoreData.framework */; };
+		A9C0BFD01A28EF0500FD6EA1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A9C0BFCE1A28EF0500FD6EA1 /* InfoPlist.strings */; };
+		A9C0BFD21A28EF0500FD6EA1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C0BFD11A28EF0500FD6EA1 /* main.m */; };
+		A9C0BFD61A28EF0500FD6EA1 /* GTAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C0BFD51A28EF0500FD6EA1 /* GTAAppDelegate.m */; };
+		A9C0BFD91A28EF0500FD6EA1 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9C0BFD71A28EF0500FD6EA1 /* Main_iPhone.storyboard */; };
+		A9C0BFDC1A28EF0500FD6EA1 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9C0BFDA1A28EF0500FD6EA1 /* Main_iPad.storyboard */; };
+		A9C0BFDF1A28EF0500FD6EA1 /* GlassesTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A9C0BFDD1A28EF0500FD6EA1 /* GlassesTest.xcdatamodeld */; };
+		A9C0BFE21A28EF0500FD6EA1 /* GTAMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C0BFE11A28EF0500FD6EA1 /* GTAMasterViewController.m */; };
+		A9C0BFE51A28EF0500FD6EA1 /* GTADetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C0BFE41A28EF0500FD6EA1 /* GTADetailViewController.m */; };
+		A9C0BFE71A28EF0500FD6EA1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9C0BFE61A28EF0500FD6EA1 /* Images.xcassets */; };
+		A9C0BFEE1A28EF0600FD6EA1 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9C0BFED1A28EF0600FD6EA1 /* XCTest.framework */; };
+		A9C0BFEF1A28EF0600FD6EA1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9C0BFC31A28EF0500FD6EA1 /* Foundation.framework */; };
+		A9C0BFF01A28EF0600FD6EA1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9C0BFC71A28EF0500FD6EA1 /* UIKit.framework */; };
+		A9C0BFF11A28EF0600FD6EA1 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9C0BFC91A28EF0500FD6EA1 /* CoreData.framework */; };
+		A9C0BFF91A28EF0600FD6EA1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A9C0BFF71A28EF0600FD6EA1 /* InfoPlist.strings */; };
+		A9C0BFFB1A28EF0600FD6EA1 /* GlassesTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C0BFFA1A28EF0600FD6EA1 /* GlassesTestTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A9C0BFF21A28EF0600FD6EA1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9C0BFB81A28EF0500FD6EA1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9C0BFBF1A28EF0500FD6EA1;
+			remoteInfo = GlassesTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A9C0BFC01A28EF0500FD6EA1 /* GlassesTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GlassesTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9C0BFC31A28EF0500FD6EA1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A9C0BFC51A28EF0500FD6EA1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A9C0BFC71A28EF0500FD6EA1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A9C0BFC91A28EF0500FD6EA1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		A9C0BFCD1A28EF0500FD6EA1 /* GlassesTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GlassesTest-Info.plist"; sourceTree = "<group>"; };
+		A9C0BFCF1A28EF0500FD6EA1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A9C0BFD11A28EF0500FD6EA1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A9C0BFD31A28EF0500FD6EA1 /* GlassesTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GlassesTest-Prefix.pch"; sourceTree = "<group>"; };
+		A9C0BFD41A28EF0500FD6EA1 /* GTAAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GTAAppDelegate.h; sourceTree = "<group>"; };
+		A9C0BFD51A28EF0500FD6EA1 /* GTAAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GTAAppDelegate.m; sourceTree = "<group>"; };
+		A9C0BFD81A28EF0500FD6EA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		A9C0BFDB1A28EF0500FD6EA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		A9C0BFDE1A28EF0500FD6EA1 /* GlassesTest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GlassesTest.xcdatamodel; sourceTree = "<group>"; };
+		A9C0BFE01A28EF0500FD6EA1 /* GTAMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GTAMasterViewController.h; sourceTree = "<group>"; };
+		A9C0BFE11A28EF0500FD6EA1 /* GTAMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GTAMasterViewController.m; sourceTree = "<group>"; };
+		A9C0BFE31A28EF0500FD6EA1 /* GTADetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GTADetailViewController.h; sourceTree = "<group>"; };
+		A9C0BFE41A28EF0500FD6EA1 /* GTADetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GTADetailViewController.m; sourceTree = "<group>"; };
+		A9C0BFE61A28EF0500FD6EA1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A9C0BFEC1A28EF0600FD6EA1 /* GlassesTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GlassesTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9C0BFED1A28EF0600FD6EA1 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		A9C0BFF61A28EF0600FD6EA1 /* GlassesTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GlassesTestTests-Info.plist"; sourceTree = "<group>"; };
+		A9C0BFF81A28EF0600FD6EA1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A9C0BFFA1A28EF0600FD6EA1 /* GlassesTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GlassesTestTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A9C0BFBD1A28EF0500FD6EA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9C0BFC61A28EF0500FD6EA1 /* CoreGraphics.framework in Frameworks */,
+				A9C0BFCA1A28EF0500FD6EA1 /* CoreData.framework in Frameworks */,
+				A9C0BFC81A28EF0500FD6EA1 /* UIKit.framework in Frameworks */,
+				A9C0BFC41A28EF0500FD6EA1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9C0BFE91A28EF0600FD6EA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9C0BFEE1A28EF0600FD6EA1 /* XCTest.framework in Frameworks */,
+				A9C0BFF11A28EF0600FD6EA1 /* CoreData.framework in Frameworks */,
+				A9C0BFF01A28EF0600FD6EA1 /* UIKit.framework in Frameworks */,
+				A9C0BFEF1A28EF0600FD6EA1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A9C0BFB71A28EF0500FD6EA1 = {
+			isa = PBXGroup;
+			children = (
+				A9C0BFCB1A28EF0500FD6EA1 /* GlassesTest */,
+				A9C0BFF41A28EF0600FD6EA1 /* GlassesTestTests */,
+				A9C0BFC21A28EF0500FD6EA1 /* Frameworks */,
+				A9C0BFC11A28EF0500FD6EA1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A9C0BFC11A28EF0500FD6EA1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A9C0BFC01A28EF0500FD6EA1 /* GlassesTest.app */,
+				A9C0BFEC1A28EF0600FD6EA1 /* GlassesTestTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A9C0BFC21A28EF0500FD6EA1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A9C0BFC31A28EF0500FD6EA1 /* Foundation.framework */,
+				A9C0BFC51A28EF0500FD6EA1 /* CoreGraphics.framework */,
+				A9C0BFC71A28EF0500FD6EA1 /* UIKit.framework */,
+				A9C0BFC91A28EF0500FD6EA1 /* CoreData.framework */,
+				A9C0BFED1A28EF0600FD6EA1 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A9C0BFCB1A28EF0500FD6EA1 /* GlassesTest */ = {
+			isa = PBXGroup;
+			children = (
+				A9C0BFD41A28EF0500FD6EA1 /* GTAAppDelegate.h */,
+				A9C0BFD51A28EF0500FD6EA1 /* GTAAppDelegate.m */,
+				A9C0BFD71A28EF0500FD6EA1 /* Main_iPhone.storyboard */,
+				A9C0BFDA1A28EF0500FD6EA1 /* Main_iPad.storyboard */,
+				A9C0BFE01A28EF0500FD6EA1 /* GTAMasterViewController.h */,
+				A9C0BFE11A28EF0500FD6EA1 /* GTAMasterViewController.m */,
+				A9C0BFE31A28EF0500FD6EA1 /* GTADetailViewController.h */,
+				A9C0BFE41A28EF0500FD6EA1 /* GTADetailViewController.m */,
+				A9C0BFE61A28EF0500FD6EA1 /* Images.xcassets */,
+				A9C0BFDD1A28EF0500FD6EA1 /* GlassesTest.xcdatamodeld */,
+				A9C0BFCC1A28EF0500FD6EA1 /* Supporting Files */,
+			);
+			path = GlassesTest;
+			sourceTree = "<group>";
+		};
+		A9C0BFCC1A28EF0500FD6EA1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A9C0BFCD1A28EF0500FD6EA1 /* GlassesTest-Info.plist */,
+				A9C0BFCE1A28EF0500FD6EA1 /* InfoPlist.strings */,
+				A9C0BFD11A28EF0500FD6EA1 /* main.m */,
+				A9C0BFD31A28EF0500FD6EA1 /* GlassesTest-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A9C0BFF41A28EF0600FD6EA1 /* GlassesTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				A9C0BFFA1A28EF0600FD6EA1 /* GlassesTestTests.m */,
+				A9C0BFF51A28EF0600FD6EA1 /* Supporting Files */,
+			);
+			path = GlassesTestTests;
+			sourceTree = "<group>";
+		};
+		A9C0BFF51A28EF0600FD6EA1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A9C0BFF61A28EF0600FD6EA1 /* GlassesTestTests-Info.plist */,
+				A9C0BFF71A28EF0600FD6EA1 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A9C0BFBF1A28EF0500FD6EA1 /* GlassesTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9C0BFFE1A28EF0600FD6EA1 /* Build configuration list for PBXNativeTarget "GlassesTest" */;
+			buildPhases = (
+				A9C0BFBC1A28EF0500FD6EA1 /* Sources */,
+				A9C0BFBD1A28EF0500FD6EA1 /* Frameworks */,
+				A9C0BFBE1A28EF0500FD6EA1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GlassesTest;
+			productName = GlassesTest;
+			productReference = A9C0BFC01A28EF0500FD6EA1 /* GlassesTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A9C0BFEB1A28EF0600FD6EA1 /* GlassesTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9C0C0011A28EF0600FD6EA1 /* Build configuration list for PBXNativeTarget "GlassesTestTests" */;
+			buildPhases = (
+				A9C0BFE81A28EF0600FD6EA1 /* Sources */,
+				A9C0BFE91A28EF0600FD6EA1 /* Frameworks */,
+				A9C0BFEA1A28EF0600FD6EA1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A9C0BFF31A28EF0600FD6EA1 /* PBXTargetDependency */,
+			);
+			name = GlassesTestTests;
+			productName = GlassesTestTests;
+			productReference = A9C0BFEC1A28EF0600FD6EA1 /* GlassesTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A9C0BFB81A28EF0500FD6EA1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = GTA;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = DBBO;
+				TargetAttributes = {
+					A9C0BFEB1A28EF0600FD6EA1 = {
+						TestTargetID = A9C0BFBF1A28EF0500FD6EA1;
+					};
+				};
+			};
+			buildConfigurationList = A9C0BFBB1A28EF0500FD6EA1 /* Build configuration list for PBXProject "GlassesTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A9C0BFB71A28EF0500FD6EA1;
+			productRefGroup = A9C0BFC11A28EF0500FD6EA1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A9C0BFBF1A28EF0500FD6EA1 /* GlassesTest */,
+				A9C0BFEB1A28EF0600FD6EA1 /* GlassesTestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A9C0BFBE1A28EF0500FD6EA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9C0BFDC1A28EF0500FD6EA1 /* Main_iPad.storyboard in Resources */,
+				A9C0BFE71A28EF0500FD6EA1 /* Images.xcassets in Resources */,
+				A9C0BFD91A28EF0500FD6EA1 /* Main_iPhone.storyboard in Resources */,
+				A9C0BFD01A28EF0500FD6EA1 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9C0BFEA1A28EF0600FD6EA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9C0BFF91A28EF0600FD6EA1 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A9C0BFBC1A28EF0500FD6EA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9C0BFD21A28EF0500FD6EA1 /* main.m in Sources */,
+				A9C0BFDF1A28EF0500FD6EA1 /* GlassesTest.xcdatamodeld in Sources */,
+				A9C0BFD61A28EF0500FD6EA1 /* GTAAppDelegate.m in Sources */,
+				A9C0BFE51A28EF0500FD6EA1 /* GTADetailViewController.m in Sources */,
+				A9C0BFE21A28EF0500FD6EA1 /* GTAMasterViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9C0BFE81A28EF0600FD6EA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9C0BFFB1A28EF0600FD6EA1 /* GlassesTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A9C0BFF31A28EF0600FD6EA1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A9C0BFBF1A28EF0500FD6EA1 /* GlassesTest */;
+			targetProxy = A9C0BFF21A28EF0600FD6EA1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A9C0BFCE1A28EF0500FD6EA1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9C0BFCF1A28EF0500FD6EA1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A9C0BFD71A28EF0500FD6EA1 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9C0BFD81A28EF0500FD6EA1 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		A9C0BFDA1A28EF0500FD6EA1 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9C0BFDB1A28EF0500FD6EA1 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		A9C0BFF71A28EF0600FD6EA1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9C0BFF81A28EF0600FD6EA1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A9C0BFFC1A28EF0600FD6EA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A9C0BFFD1A28EF0600FD6EA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A9C0BFFF1A28EF0600FD6EA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GlassesTest/GlassesTest-Prefix.pch";
+				INFOPLIST_FILE = "GlassesTest/GlassesTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A9C0C0001A28EF0600FD6EA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GlassesTest/GlassesTest-Prefix.pch";
+				INFOPLIST_FILE = "GlassesTest/GlassesTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A9C0C0021A28EF0600FD6EA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GlassesTest.app/GlassesTest";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GlassesTest/GlassesTest-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "GlassesTestTests/GlassesTestTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		A9C0C0031A28EF0600FD6EA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GlassesTest.app/GlassesTest";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GlassesTest/GlassesTest-Prefix.pch";
+				INFOPLIST_FILE = "GlassesTestTests/GlassesTestTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A9C0BFBB1A28EF0500FD6EA1 /* Build configuration list for PBXProject "GlassesTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9C0BFFC1A28EF0600FD6EA1 /* Debug */,
+				A9C0BFFD1A28EF0600FD6EA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9C0BFFE1A28EF0600FD6EA1 /* Build configuration list for PBXNativeTarget "GlassesTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9C0BFFF1A28EF0600FD6EA1 /* Debug */,
+				A9C0C0001A28EF0600FD6EA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A9C0C0011A28EF0600FD6EA1 /* Build configuration list for PBXNativeTarget "GlassesTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9C0C0021A28EF0600FD6EA1 /* Debug */,
+				A9C0C0031A28EF0600FD6EA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A9C0BFDD1A28EF0500FD6EA1 /* GlassesTest.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A9C0BFDE1A28EF0500FD6EA1 /* GlassesTest.xcdatamodel */,
+			);
+			currentVersion = A9C0BFDE1A28EF0500FD6EA1 /* GlassesTest.xcdatamodel */;
+			path = GlassesTest.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A9C0BFB81A28EF0500FD6EA1 /* Project object */;
+}
