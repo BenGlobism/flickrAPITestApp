@@ -34,14 +34,23 @@
 - (void)configureView
 {
     // Update the user interface for the detail item.
-
     if (self.detailItem) {
-        self.detailDescriptionLabel.text = [[self.detailItem valueForKey:@"timeStamp"] description];
+        NSError *error = nil;
+        NSURL *imageURL = [NSURL URLWithString:[self.detailItem valueForKey:@"largeURL"]];
+        NSLog(@"url is %@",[self.detailItem valueForKey:@"largeURL"]);
+        NSData *imageData = [NSData dataWithContentsOfURL:imageURL
+                                                  options:0
+                                                    error:&error];
+        self.imageDetail.image = [UIImage imageWithData:imageData];
+        self.title = [self.detailItem valueForKey:@"title"];
+        
+        
     }
 }
 
 - (void)viewDidLoad
 {
+    
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     [self configureView];

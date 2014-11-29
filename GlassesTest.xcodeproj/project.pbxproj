@@ -26,6 +26,10 @@
 		A9C0BFF11A28EF0600FD6EA1 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9C0BFC91A28EF0500FD6EA1 /* CoreData.framework */; };
 		A9C0BFF91A28EF0600FD6EA1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A9C0BFF71A28EF0600FD6EA1 /* InfoPlist.strings */; };
 		A9C0BFFB1A28EF0600FD6EA1 /* GlassesTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C0BFFA1A28EF0600FD6EA1 /* GlassesTestTests.m */; };
+		A9C0C0061A28F53800FD6EA1 /* GTACollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C0C0051A28F53800FD6EA1 /* GTACollectionViewCell.m */; };
+		A9C0C0091A29097900FD6EA1 /* UINavigationController+GZDrawer.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C0C0081A29097900FD6EA1 /* UINavigationController+GZDrawer.m */; };
+		A9C0C00C1A290AC100FD6EA1 /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C0C00B1A290AC100FD6EA1 /* SearchViewController.m */; };
+		A9C0C00F1A2913A400FD6EA1 /* GTAFlickrAPICall.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C0C00E1A2913A400FD6EA1 /* GTAFlickrAPICall.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +67,14 @@
 		A9C0BFF61A28EF0600FD6EA1 /* GlassesTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GlassesTestTests-Info.plist"; sourceTree = "<group>"; };
 		A9C0BFF81A28EF0600FD6EA1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A9C0BFFA1A28EF0600FD6EA1 /* GlassesTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GlassesTestTests.m; sourceTree = "<group>"; };
+		A9C0C0041A28F53800FD6EA1 /* GTACollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTACollectionViewCell.h; sourceTree = "<group>"; };
+		A9C0C0051A28F53800FD6EA1 /* GTACollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTACollectionViewCell.m; sourceTree = "<group>"; };
+		A9C0C0071A29097900FD6EA1 /* UINavigationController+GZDrawer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+GZDrawer.h"; sourceTree = "<group>"; };
+		A9C0C0081A29097900FD6EA1 /* UINavigationController+GZDrawer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+GZDrawer.m"; sourceTree = "<group>"; };
+		A9C0C00A1A290AC100FD6EA1 /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
+		A9C0C00B1A290AC100FD6EA1 /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
+		A9C0C00D1A2913A400FD6EA1 /* GTAFlickrAPICall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTAFlickrAPICall.h; sourceTree = "<group>"; };
+		A9C0C00E1A2913A400FD6EA1 /* GTAFlickrAPICall.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTAFlickrAPICall.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,8 +143,12 @@
 				A9C0BFDA1A28EF0500FD6EA1 /* Main_iPad.storyboard */,
 				A9C0BFE01A28EF0500FD6EA1 /* GTAMasterViewController.h */,
 				A9C0BFE11A28EF0500FD6EA1 /* GTAMasterViewController.m */,
+				A9C0C00D1A2913A400FD6EA1 /* GTAFlickrAPICall.h */,
+				A9C0C00E1A2913A400FD6EA1 /* GTAFlickrAPICall.m */,
 				A9C0BFE31A28EF0500FD6EA1 /* GTADetailViewController.h */,
 				A9C0BFE41A28EF0500FD6EA1 /* GTADetailViewController.m */,
+				A9C0C0041A28F53800FD6EA1 /* GTACollectionViewCell.h */,
+				A9C0C0051A28F53800FD6EA1 /* GTACollectionViewCell.m */,
 				A9C0BFE61A28EF0500FD6EA1 /* Images.xcassets */,
 				A9C0BFDD1A28EF0500FD6EA1 /* GlassesTest.xcdatamodeld */,
 				A9C0BFCC1A28EF0500FD6EA1 /* Supporting Files */,
@@ -143,6 +159,10 @@
 		A9C0BFCC1A28EF0500FD6EA1 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A9C0C00A1A290AC100FD6EA1 /* SearchViewController.h */,
+				A9C0C00B1A290AC100FD6EA1 /* SearchViewController.m */,
+				A9C0C0071A29097900FD6EA1 /* UINavigationController+GZDrawer.h */,
+				A9C0C0081A29097900FD6EA1 /* UINavigationController+GZDrawer.m */,
 				A9C0BFCD1A28EF0500FD6EA1 /* GlassesTest-Info.plist */,
 				A9C0BFCE1A28EF0500FD6EA1 /* InfoPlist.strings */,
 				A9C0BFD11A28EF0500FD6EA1 /* main.m */,
@@ -268,11 +288,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9C0C0091A29097900FD6EA1 /* UINavigationController+GZDrawer.m in Sources */,
+				A9C0C0061A28F53800FD6EA1 /* GTACollectionViewCell.m in Sources */,
 				A9C0BFD21A28EF0500FD6EA1 /* main.m in Sources */,
 				A9C0BFDF1A28EF0500FD6EA1 /* GlassesTest.xcdatamodeld in Sources */,
 				A9C0BFD61A28EF0500FD6EA1 /* GTAAppDelegate.m in Sources */,
 				A9C0BFE51A28EF0500FD6EA1 /* GTADetailViewController.m in Sources */,
+				A9C0C00C1A290AC100FD6EA1 /* SearchViewController.m in Sources */,
 				A9C0BFE21A28EF0500FD6EA1 /* GTAMasterViewController.m in Sources */,
+				A9C0C00F1A2913A400FD6EA1 /* GTAFlickrAPICall.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -487,6 +511,7 @@
 				A9C0C0001A28EF0600FD6EA1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A9C0C0011A28EF0600FD6EA1 /* Build configuration list for PBXNativeTarget "GlassesTestTests" */ = {
 			isa = XCConfigurationList;
@@ -495,6 +520,7 @@
 				A9C0C0031A28EF0600FD6EA1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
